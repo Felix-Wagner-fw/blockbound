@@ -1,0 +1,163 @@
+body {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.dashboardContainer {
+    background-color: #ff3366;
+    padding-bottom: 50px
+}
+
+.topWidget {
+    padding: 0 25px;
+}
+
+.dashboardHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    align-items: center;
+}
+
+.pageTitle {
+    font-size: 48px;
+    color: #00cc99;
+}
+
+.reminderButton {
+    background-color: #333333;
+    color: #ffffff;
+    height: 50px;
+    width: 225px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+}
+
+.profileBox {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.profileImage {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    margin: 0
+}
+
+.initials {
+    margin: 15px;
+    font-size: 35px;
+}
+
+.profileName {
+    margin: auto 0 auto 25px;
+    color: #00cc99;
+    font-size: 24px;
+}
+
+.landlordInformationContainer {
+    background-color: #ff9933;
+    padding-bottom: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -50px;
+}
+
+.landLordInformation {
+    color: #ffffff;
+    display: block;
+    font-size: 24px;
+    margin: auto 0 auto 25px;
+}
+
+.middleWidget {
+    padding: 0 25px;
+    margin-bottom: 25px;
+}
+
+.widgetTitle {
+    padding: 25px 0;
+    font-size: 24px;
+    color: #ff9933;
+}
+
+.profileSubtitle {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.landlordButtonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landlordButtonContainer button {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.callLandlordButton {
+    border: 1px solid #00cc99;
+}
+
+.sendSMSButton {
+    background-color: #ff3366;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.paymentOptionsContainer {
+    background-color: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -50px;
+}
+
+.paymentWidget {
+    padding: 40px 25px 0 25px;
+    font-size: 18px;
+}
+
+.paymentHeaderOptions {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    padding-bottom: 25px;
+}
+
+.paymentHeaderOptions .payment {
+    color: #000000;
+}
+
+.paymentHeaderOptions .history {
+    color: #b2b4bc;
+}
+
+.payRentWidget {
+    background: #ffcc66;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.rentData {
+    display: flex;
+}
+
+.rentData .rentValues {
+    padding-left: 20px;
+}
+
+.complaintHeader {
+    display: block;
+}
+
+.addNewComplaintButton {
+    width: 125px;
+    height: 100px;
+    border-radius: 
